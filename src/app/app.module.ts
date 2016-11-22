@@ -5,12 +5,18 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
+import { PresentationCompComponent } from './presentation-comp/presentation-comp.component';
+import { VideoCompComponent } from './video-comp/video-comp.component';
+import { FooterCompComponent } from './footer-comp/footer-comp.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PresentationCompComponent,
+    VideoCompComponent,
+    FooterCompComponent
   ],
   imports: [
     BrowserModule,
