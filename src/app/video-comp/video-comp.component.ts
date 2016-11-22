@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoCompComponent implements OnInit {
 
+  idvideo : string = "DZAqKdiCqR8";
+
   constructor() { }
 
   ngOnInit() {
