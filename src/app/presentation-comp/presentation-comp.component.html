@@ -1,12 +1,8 @@
-<p>
-  presentation-comp works!
-</p>
-
 <div class="container">
   <div class="row">
-    <div class="col-md-6" *ngFor="let user of users">
-      {{user.name}}
-      <img width="304" height="236" class="img-responsive" src="https://scontent-frt3-1.xx.fbcdn.net/{{user.photo}}">
+    <div class="col-md-6 nom" *ngFor="let user of users">
+      <h2>{{user.name}}</h2>
+      <img width="304" height="236" class="img-responsive photo" src="https://scontent-frt3-1.xx.fbcdn.net/{{user.photo}}">
     </div>
   </div>
 </div>

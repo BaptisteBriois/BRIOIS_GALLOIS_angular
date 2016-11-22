@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" id="header">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -8,22 +8,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">Profils</a></li>
-                <li><a href="#">Vidéo</a></li>
+                <li><a href="#presentation">Profils</a></li>
+                <li><a href="#video">Vidéo</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 
-<bbmg-presentation-comp></bbmg-presentation-comp>
-<br>
-<bbmg-video-comp></bbmg-video-comp>
+<bbmg-presentation-comp id="presentation"></bbmg-presentation-comp>
+
+<bbmg-video-comp id="video"></bbmg-video-comp>
 
 <bbmg-footer-comp></bbmg-footer-comp>
 

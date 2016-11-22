@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="video embed-responsive embed-responsive-16by9">
+            <youtube-player
+                    [videoId]="id"
+                    (ready)="savePlayer($event)"
+                    (change)="onStateChange($event)"
+            >
+            </youtube-player>
+        </div>
+    </div>
+</div>
