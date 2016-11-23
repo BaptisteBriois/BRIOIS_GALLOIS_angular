@@ -8,16 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VideoCompComponent implements OnInit {
 
-    private player;
-    private ytEvent;
-    private id : string = "DZAqKdiCqR8";
+    video : string = "fail.mp4";
 
-    onStateChange(event) {
-        this.ytEvent = event.data;
-    }
-    savePlayer(player) {
-        this.player = player;
-    }
   constructor() { }
 
   ngOnInit() {
